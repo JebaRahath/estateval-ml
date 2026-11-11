@@ -1,4 +1,4 @@
-# 🏡 Housing Price Prediction System
+#  Housing Price Prediction System
 
 An end-to-end Machine Learning web application built using **Python**, **Streamlit**, **scikit-learn**, and **statsmodels**. This project estimates the market selling price of residential houses based on their physical dimensions, layout, location advantages, and modern amenities.
 
@@ -6,7 +6,7 @@ Built specifically as a college Machine Learning project, this application showc
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
 3. [Machine Learning Workflow](#machine-learning-workflow)
@@ -125,14 +125,14 @@ Using `sklearn.feature_selection.RFE` with a `LinearRegression` estimator:
 
 The Streamlit interface is organized into 4 distinct, beginner-friendly pages:
 
-### Page 1: 🏠 Home / Dashboard
+### Page 1:  Home / Dashboard
 - Welcoming overview of the project and real-estate valuation principles.
 - 4 Key Metric Cards: Total Properties, Average Price, Lowest Price, Highest Price.
 - Plain-English explanation of how supervised regression estimates property values.
 - Quick "Key Valuation Drivers" chips.
 - Prominent **"Estimate House Price"** call-to-action button that navigates directly to the valuation page.
 
-### Page 2: 🔮 House Price Prediction (Core Feature)
+### Page 2:  House Price Prediction (Core Feature)
 - Clean, responsive input form grouped into 4 intuitive cards:
   1. **Property Size & Layout:** Area in sq. ft., Bedrooms, Bathrooms, Stories.
   2. **Parking & Street Access:** Parking capacity (0–3 cars), Main road connection (Yes/No).
@@ -145,7 +145,7 @@ The Streamlit interface is organized into 4 distinct, beginner-friendly pages:
   - Required academic disclaimer text.
   - Full property summary chips for easy review.
 
-### Page 3: 📊 Dataset Insights
+### Page 3:  Dataset Insights
 - Collapsible raw dataset preview with summary statistics.
 - 5 Polished Visualizations:
   1. **Price Distribution:** Histogram with Kernel Density Estimate (KDE), mean and median lines.
@@ -154,7 +154,7 @@ The Streamlit interface is organized into 4 distinct, beginner-friendly pages:
   4. **Furnishing Status Impact:** Categorical bar chart comparing average values for furnished, semi-furnished, and unfurnished homes.
   5. **Correlation Heatmap:** Matrix displaying pairwise linear correlation among numerical variables.
 
-### Page 4: 🧠 Model Performance & Academic Analysis
+### Page 4:  Model Performance & Academic Analysis
 - Regression evaluation metrics: **$R^2$ Score, Adjusted $R^2$, MAE, RMSE**.
 - Plain-English guide explaining what each metric measures.
 - **Actual vs. Predicted Scatter Plot** with ideal 45° reference line.
@@ -289,7 +289,7 @@ Evaluated on the unseen **20% test split (109 properties)**:
 
 ---
 
-## 👨‍🎓 Academic Presentation Guide
+##  Academic Presentation Guide
 When presenting this project to evaluators:
 1. **Highlight Convergence:** Emphasize that statistical Backward Elimination and standardized RFE both independently selected the exact same set of 10 features, proving the robustness of the feature selection.
 2. **Explain Dropped Variables:** Explain why `bedrooms` was eliminated—its explanatory power is already captured by total `area` and `bathrooms` (multicollinearity).
