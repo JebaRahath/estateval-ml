@@ -1,4 +1,4 @@
-# 🏡 Housing Price Prediction System
+#  Housing Price Prediction System
 
 An end-to-end Machine Learning web application built using **Python**, **Streamlit**, **scikit-learn**, and **statsmodels**. This project estimates the market selling price of residential houses based on their physical dimensions, layout, location advantages, and modern amenities.
 
@@ -6,7 +6,7 @@ Built specifically as a college Machine Learning project, this application showc
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
 3. [Machine Learning Workflow](#machine-learning-workflow)
